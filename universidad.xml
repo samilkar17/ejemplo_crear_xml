@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<universidad>
+  <Estudiante>
+    <nombre>sebastian</nombre>
+    <telefono>789</telefono>
+    <Correo>asd</Correo>
+    <Codigo>963</Codigo>
+    <Carrera>ing</Carrera>
+  </Estudiante>
+  <Estudiante>
+    <nombre>andres</nombre>
+    <telefono>789</telefono>
+    <Correo>asd</Correo>
+    <Codigo>369</Codigo>
+    <Carrera>economia</Carrera>
+  </Estudiante>
+</universidad>

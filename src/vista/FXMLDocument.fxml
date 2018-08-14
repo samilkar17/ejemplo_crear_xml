@@ -1,14 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.text.*?>
 <?import java.lang.*?>
 <?import java.util.*?>
 <?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ejemploxml.FXMLDocumentController">
-    <children>
-        <Button layoutX="126" layoutY="90" text="Click Me!" onAction="#handleButtonAction" fx:id="button" />
-        <Label layoutX="126" layoutY="120" minHeight="16" minWidth="69" fx:id="label" />
-    </children>
+<AnchorPane id="AnchorPane" prefHeight="546.0" prefWidth="583.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="ejemploxml.FXMLDocumentController">
+   <children>
+      <Label fx:id="nombre" layoutX="110.0" layoutY="106.0" text="Nombre">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <Label fx:id="telefono" layoutX="107.0" layoutY="147.0" text="Telefono">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <Label fx:id="correo" layoutX="118.0" layoutY="188.0" text="Correo">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <Label fx:id="codigo" layoutX="115.0" layoutY="227.0" text="Codigo">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <Label fx:id="carrera" layoutX="115.0" layoutY="272.0" text="Carrera">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtNombre" layoutX="231.0" layoutY="112.0" />
+      <TextField fx:id="txtTelefono" layoutX="231.0" layoutY="153.0" />
+      <TextField fx:id="txtCorreo" layoutX="231.0" layoutY="194.0" />
+      <TextField fx:id="txtCodigo" layoutX="231.0" layoutY="233.0" />
+      <TextField fx:id="txtCarrera" layoutX="231.0" layoutY="278.0" />
+      <Label layoutX="144.0" layoutY="14.0" text="Agregar Estudiante">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+      <Button layoutX="92.0" layoutY="367.0" mnemonicParsing="false" onAction="#agregar" text="Agregar Estudiante" />
+      <Button layoutX="306.0" layoutY="367.0" mnemonicParsing="false" onAction="#Guardar" text="Guardar Archivo XML" />
+   </children>
 </AnchorPane>
